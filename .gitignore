@@ -1,0 +1,44 @@
+# Python environments, caches and packaging output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+/build/
+/dist/
+.coverage
+.coverage.*
+htmlcov/
+
+# Generated benchmark data, plots, report PDFs and delivery archives
+/results/
+/figures/
+/output/
+/tmp/
+.mplconfig/
+/report/assets/
+/report/build_metadata.json
+/report/*.pdf
+/report/*.aux
+/report/*.log
+/report/*.out
+
+# Planning notes and historical verification records
+/docs/
+/PHASES.md
+
+# Machine-local configuration and editor/OS files
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

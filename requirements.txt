@@ -1,0 +1,4 @@
+# Algorithms and benchmarks use the standard library. Plotting/report packages:
+matplotlib==3.10.8
+reportlab==5.1.0
+pypdf==7.1.0
