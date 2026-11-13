@@ -20,12 +20,9 @@ htmlcov/
 /output/
 /tmp/
 .mplconfig/
-/report/assets/
-/report/build_metadata.json
-/report/*.pdf
-/report/*.aux
-/report/*.log
-/report/*.out
+
+# Local PDF report source, assets and build records
+/report/
 
 # Planning notes and historical verification records
 /docs/
